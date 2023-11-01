@@ -1,0 +1,8 @@
+domain: maas-react-components.demos.haus
+image: prod-web-team-demos.docker-registry.canonical.com/maas-react-components.demos.haus
+readinessPath: "/"
+
+demo:
+  env:
+    - name: MAAS_URL
+      value: "http://maas-react-components-demo.internal:5240/"
